@@ -1,0 +1,13 @@
+{
+  "results": [
+    {
+       "name" : "test_case_-1785730025/http/should be ok",
+       "status" : "Success",
+       "durationMillis" : "471",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "test_case_-1785730025",
+       "labels" : ["http", "should be ok"]
+    }
+
+  ]
+}
