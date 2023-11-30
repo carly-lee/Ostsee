@@ -1,35 +1,48 @@
-import zio._
-import zio.http._
+import model.Todo
+import zio.{Scope, ZIO, ZIOAppArgs, ZIOAppDefault}
+import zio.http.{HttpApp, Method, Request, Response, Route, Routes, Server, Status, handler, int}
+import io.circe.parser.parse
 
 object Main extends ZIOAppDefault {
-  val getTodos =
+
+  val getTodos: Route[Any, Nothing] =
     Method.GET / "todos" -> handler(Response.text("a list of Todos"))
 
-  val getTodo =
+  val getTodo: Route[Any, Nothing] =
     Method.GET / "todo" / int("todoId") ->
-      handler { (todoId: Int, req: Request) =>
-        Response.text(s"Get one Todo: $todoId")
-      }
+    handler { (todoId: Int, req: Request) =>
+      Response.text(s"Get one Todo: $todoId")
+    }
 
-  val createTodo =
-    Method.POST / "todo" -> handler { (req: Request) => {
-      Response(body = req.body)
-    }}
+  val createTodo: Route[Any, Nothing] =
+    Method.POST / "todo" -> handler { (req: Request) =>
+      (for {
+        json <- req.body.asString.map(parse)
+        response <- json match {
+          case Left(e) =>
+            ZIO.debug(s"Failed to parse the input: $e")
+               .as(Response.text(e.message).status(Status.BadRequest))
+          case Right(json) => Todo.deserialize(json) match
+            case Left(e) => ZIO.debug(s"Failed to parse the input: $e")
+                               .as(Response.text(e.message).status(Status.BadRequest))
+            case Right(todo) => ZIO.succeed(Response.text(s"A todo is created!: ${todo.toString}"))
+        }
+      } yield response).orDie
+    }
 
-  val updateTodo =
+  val updateTodo: Route[Any, Nothing] =
     Method.PUT / "todo" -> handler(Response.text("a todo is updated"))
 
-  val deleteTodo =
+  val deleteTodo: Route[Any, Nothing] =
     Method.DELETE / "todo" -> handler(Response.text("a todo is deleted"))
 
-  val app = Routes(
+  val app: HttpApp[Any] = Routes(
     getTodos,
     getTodo,
     createTodo,
     updateTodo,
     deleteTodo
-  ).toHttpApp
+    ).toHttpApp
 
-  override def run = Server.serve(app).provide(Server.default)
+  override def run: ZIO[Any with ZIOAppArgs with Scope, Any, Any] = Server.serve(app).provide(Server.default)
 }
-

@@ -1,7 +1,35 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-2.13/ostsee_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/ostsee_3-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant/Priority$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant/Priority$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant/Priority$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant/Priority$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant/Priority$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant/Priority$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant/Priority.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant/Priority.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant/Priority$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant/Priority$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	constant/Priority.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/constant/Priority.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/Todo.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/model/Todo.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/Todo$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/model/Todo$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/Todo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/model/Todo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/Todo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/model/Todo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/Todo$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/model/Todo$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/Main.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/eunjeonglee/Documents/Study/Scala/Ostsee/target/scala-3.3.1/classes/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

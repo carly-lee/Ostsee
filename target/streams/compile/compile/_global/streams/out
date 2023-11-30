@@ -1,16 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/eunjeonglee/Documents/Study/Scala/Ostsee/src/main/scala/Main.scala:11:16: value / is not a member of object zio.http.Method.GET[0m
-[0m[[0m[31merror[0m] [0m[0m    Method.GET / "text" -> handler(Response.text("Hello World!"))[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eunjeonglee/Documents/Study/Scala/Ostsee/src/main/scala/Main.scala:11:28: not found: value handler[0m
-[0m[[0m[31merror[0m] [0m[0m    Method.GET / "text" -> handler(Response.text("Hello World!"))[0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eunjeonglee/Documents/Study/Scala/Ostsee/src/main/scala/Main.scala:14:16: value / is not a member of object zio.http.Method.GET[0m
-[0m[[0m[31merror[0m] [0m[0m    Method.GET / "json" -> handler(Response.json("""{"greetings": "Hello World!"}"""))[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eunjeonglee/Documents/Study/Scala/Ostsee/src/main/scala/Main.scala:14:28: not found: value handler[0m
-[0m[[0m[31merror[0m] [0m[0m    Method.GET / "json" -> handler(Response.json("""{"greetings": "Hello World!"}"""))[0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/eunjeonglee/Documents/Study/Scala/Ostsee/src/main/scala/Main.scala:16:13: not found: value Routes[0m
-[0m[[0m[31merror[0m] [0m[0m  val app = Routes(textRoute, jsonRoute).toHttpApp[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/eunjeonglee/Documents/Study/Scala/Ostsee/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/eunjeonglee/Documents/Study/Scala/Ostsee/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m
